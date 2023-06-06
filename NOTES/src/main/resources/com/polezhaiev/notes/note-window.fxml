@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #1b1c1b;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.polezhaiev.notes.NoteWindowController">
+    <children>
+        <AnchorPane id="not" layoutY="112.0" prefHeight="388.0" prefWidth="700.0" style="-fx-background-color: #edede6;">
+         <children>
+            <TextArea fx:id="noteTextId" prefHeight="388.0" prefWidth="700.0" style="-fx-background-color: #edede6;">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextArea>
+         </children></AnchorPane>
+      <TextField fx:id="noteTitleId" alignment="TOP_LEFT" layoutX="14.0" layoutY="44.0" prefHeight="59.0" prefWidth="514.0" promptText="Title" style="-fx-background-color: #1b1c1b; -fx-text-fill: #d0cd20;">
+         <font>
+            <Font name="Eras Demi ITC" size="34.0" />
+         </font>
+      </TextField>
+      <Button fx:id="backToMainWindowButton" layoutX="623.0" layoutY="14.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="65.0" style="-fx-background-color: #e0a210;" text="back" textFill="#1b1c1b">
+         <font>
+            <Font name="Eras Demi ITC" size="18.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

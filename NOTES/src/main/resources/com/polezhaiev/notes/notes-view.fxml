@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #1b1c1b;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.polezhaiev.notes.Controller">
+   <children>
+      <AnchorPane layoutY="112.0" prefHeight="388.0" prefWidth="700.0" style="-fx-background-color: #edede6;" />
+      <Label layoutX="14.0" layoutY="28.0" text="NOTES" textFill="#d0cd20">
+         <font>
+            <Font name="Eras Demi ITC" size="43.0" />
+         </font>
+      </Label>
+      <Button fx:id="addNoteButton" layoutX="650.0" layoutY="11.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="34.0" style="-fx-background-color: #e0a210;" text="+" textFill="#1b1c1b">
+         <font>
+            <Font name="Eras Demi ITC" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
