@@ -1,0 +1,1 @@
+This project is about an application that allows to store people's notes for current or future day.
