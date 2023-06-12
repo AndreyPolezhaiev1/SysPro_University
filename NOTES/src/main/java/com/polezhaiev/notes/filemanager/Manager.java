@@ -25,7 +25,7 @@ public class Manager {
             for (String note: reverseNotes) {
                 stringBuffer.append(note + "\n@245ds#@_-:FU3g1dwe\n\n");
             }
-            writer.write("\n" + stringBuffer);
+            writer.write(stringBuffer.toString());
             writer.flush();
 
         } catch (IOException e) {
@@ -55,7 +55,7 @@ public class Manager {
 
             String line = "";
             while ((line = reader.readLine()) != null){
-                stringBuffer.append(line + "\n");
+                stringBuffer.append(line);
             }
             return stringBuffer.toString();
 
