@@ -33,7 +33,10 @@ public class Manager {
         }
     }
 
-    private List<String> makeReverseList(String[]notes){
+    public List<String> makeReverseList(String[]notes){
+        if(notes.length == 0 || notes == null){
+            return null;
+        }
         List<String> list = new ArrayList<>();
         for (String note: notes) {
             list.add(note);
@@ -43,9 +46,13 @@ public class Manager {
         return list;
     }
 
-    private void cleanFile(File file) throws IOException {
+    public boolean cleanFile(File file) throws IOException {
+        if(file.length() == 0 || file == null){
+            return false;
+        }
         FileWriter fileWriter = new FileWriter(file, false);
         fileWriter.close();
+        return true;
     }
 
     public String readFromFile() throws IOException {
