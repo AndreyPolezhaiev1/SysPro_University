@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/NOTES/NOTES.iml" filepath="$PROJECT_DIR$/NOTES/NOTES.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/SysPro.iml" filepath="$PROJECT_DIR$/.idea/SysPro.iml" />
     </modules>
   </component>

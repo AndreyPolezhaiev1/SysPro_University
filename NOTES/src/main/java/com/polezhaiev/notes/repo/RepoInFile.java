@@ -12,8 +12,8 @@ import java.util.List;
 public class RepoInFile implements Repo{
     private Manager manager = new Manager();
     private final String identifier = "\n@245ds#@_-:FU3g1dwe\n\n";
-    private final File file = Paths.get("C:/Users/Andrey Polezhaiev/IdeaProjects/SysPro/NOTES/src/main/java/com/polezhaiev/notes/repo/notes.txt").toFile();
-    private File localFileFromRepo = Paths.get("C:/Users/Andrey Polezhaiev/IdeaProjects/SysPro/NOTES/src/main/java/com/polezhaiev/notes/repo/localfile.txt").toFile();
+    private final File file = new File("NOTES/src/main/java/com/polezhaiev/notes/repo/notes.txt");
+    private File localFileFromRepo = new File("NOTES/src/main/java/com/polezhaiev/notes/repo/tempInfoFile.txt");
 
     @Override
     public void writeNote(String noteTitleId, String noteTextId) throws IOException {
